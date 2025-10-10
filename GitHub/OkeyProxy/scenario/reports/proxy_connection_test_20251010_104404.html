@@ -1,0 +1,405 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OkeyProxy Comprehensive Connection Test Report</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                background-color: #f5f5f5;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                background-color: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+            .header {
+                text-align: center;
+                color: #333;
+                border-bottom: 2px solid #007bff;
+                padding-bottom: 20px;
+                margin-bottom: 30px;
+            }
+            .summary {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 20px;
+                margin-bottom: 30px;
+            }
+            .summary-card {
+                padding: 20px;
+                border-radius: 8px;
+                text-align: center;
+                color: white;
+            }
+            .total { background-color: #6c757d; }
+            .passed { background-color: #28a745; }
+            .failed { background-color: #dc3545; }
+            .success-rate { background-color: #007bff; }
+            .test-case {
+                margin-bottom: 30px;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                overflow: hidden;
+            }
+            .test-header {
+                padding: 15px 20px;
+                font-weight: bold;
+                font-size: 18px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .test-passed { background-color: #d4edda; color: #155724; }
+            .test-failed { background-color: #f8d7da; color: #721c24; }
+            .test-content {
+                padding: 20px;
+                background-color: #f8f9fa;
+            }
+            .test-details {
+                margin-bottom: 15px;
+            }
+            .test-details h4 {
+                margin: 0 0 10px 0;
+                color: #495057;
+            }
+            .output-box {
+                background-color: #2d3748;
+                color: #e2e8f0;
+                padding: 15px;
+                border-radius: 4px;
+                font-family: 'Courier New', monospace;
+                font-size: 12px;
+                white-space: pre-wrap;
+                overflow-x: auto;
+                max-height: 300px;
+                overflow-y: auto;
+            }
+            .status-badge {
+                padding: 5px 15px;
+                border-radius: 20px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            .status-passed {
+                background-color: #28a745;
+                color: white;
+            }
+            .status-failed {
+                background-color: #dc3545;
+                color: white;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 30px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #6c757d;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>OkeyProxy Comprehensive Connection Test Report</h1>
+                <p>Generated on: 2025-10-10 10:48:11</p>
+            </div>
+            
+            <div class="summary">
+                <div class="summary-card total">
+                    <h3>Total Tests</h3>
+                    <h2>6</h2>
+                </div>
+                <div class="summary-card passed">
+                    <h3>Passed</h3>
+                    <h2>5</h2>
+                </div>
+                <div class="summary-card failed">
+                    <h3>Failed</h3>
+                    <h2>1</h2>
+                </div>
+                <div class="summary-card success-rate">
+                    <h3>Success Rate</h3>
+                    <h2>83.3%</h2>
+                </div>
+            </div>
+            
+            <h2>Test Results</h2>
+    
+            <div class="test-case">
+                <div class="test-header test-passed">
+                    <span>Rotating Residential Proxies Advanced</span>
+                    <span class="status-badge status-passed">PASSED</span>
+                </div>
+                <div class="test-content">
+                    <div class="test-details">
+                        <h4>Test URL:</h4>
+                        <p>https://test-ipglobal.cd.xiaoxigroup.net/dashboard/useProxy/dynamicResidence</p>
+                    </div>
+                    <div class="test-details">
+                        <h4>Verification Type:</h4>
+                        <p>COUNTRY</p>
+                    </div>
+                    <div class="test-details">
+                        <h4>Command Executed:</h4>
+                        <div class="output-box">curl -U "customer-4iwg810112:eigi1hiw" -x "hk-test-tunnel-proxy.xiaoxitech.com:31212" "https://ipinfo.io"</div>
+                    </div>
+                    <div class="test-details">
+                        <h4>Output:</h4>
+                        <div class="output-box">{
+  "ip": "157.100.121.179",
+  "city": "Quito",
+  "region": "Pichincha",
+  "country": "EC",
+  "loc": "-0.2298,-78.5250",
+  "org": "AS27947 Telconet S.A",
+  "postal": "170406",
+  "timezone": "America/Guayaquil",
+  "readme": "https://ipinfo.io/missingauth"
+}</div>
+                    </div>
+                    <div class="test-details">
+                        <h4>Error (if any):</h4>
+                        <div class="output-box"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="test-case">
+                <div class="test-header test-passed">
+                    <span>Rotating Residential Proxies Premium</span>
+                    <span class="status-badge status-passed">PASSED</span>
+                </div>
+                <div class="test-content">
+                    <div class="test-details">
+                        <h4>Test URL:</h4>
+                        <p>https://test-ipglobal.cd.xiaoxigroup.net/dashboard/useProxy/dynamicResidence</p>
+                    </div>
+                    <div class="test-details">
+                        <h4>Verification Type:</h4>
+                        <p>COUNTRY</p>
+                    </div>
+                    <div class="test-details">
+                        <h4>Command Executed:</h4>
+                        <div class="output-box">curl -U "customer-5ynh810112:eigi1hiw" -x "hk-test-tunnel-proxy.xiaoxitech.com:31212" "https://ipinfo.io"</div>
+                    </div>
+                    <div class="test-details">
+                        <h4>Output:</h4>
+                        <div class="output-box">{
+  "ip": "190.213.150.176",
+  "city": "Laventille",
+  "region": "San Juan/Laventille",
+  "country": "TT",
+  "loc": "10.6492,-61.4989",
+  "org": "AS27665 Columbus Communications Trinidad Limited.",
+  "timezone": "America/Port_of_Spain",
+  "readme": "https://ipinfo.io/missingauth"
+}</div>
+                    </div>
+                    <div class="test-details">
+                        <h4>Error (if any):</h4>
+                        <div class="output-box"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="test-case">
+                <div class="test-header test-failed">
+                    <span>Rotating Datacenter Proxies</span>
+                    <span class="status-badge status-failed">FAILED</span>
+                </div>
+                <div class="test-content">
+                    <div class="test-details">
+                        <h4>Test URL:</h4>
+                        <p>https://test-ipglobal.cd.xiaoxigroup.net/dashboard/useProxy/datacenterRotatingProxy</p>
+                    </div>
+                    <div class="test-details">
+                        <h4>Verification Type:</h4>
+                        <p>COUNTRY</p>
+                    </div>
+                    <div class="test-details">
+                        <h4>Command Executed:</h4>
+                        <div class="output-box">curl -U "customer-hkj4810112:eigi1hiw" -x "hk-test-tunnel-proxy.xiaoxitech.com:31212" "https://ipinfo.io"</div>
+                    </div>
+                    <div class="test-details">
+                        <h4>Output:</h4>
+                        <div class="output-box"></div>
+                    </div>
+                    <div class="test-details">
+                        <h4>Error (if any):</h4>
+                        <div class="output-box">No response received from command execution</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="test-case">
+                <div class="test-header test-passed">
+                    <span>Static Residential Proxies</span>
+                    <span class="status-badge status-passed">PASSED</span>
+                </div>
+                <div class="test-content">
+                    <div class="test-details">
+                        <h4>Test URL:</h4>
+                        <p>https://test-ipglobal.cd.xiaoxigroup.net/dashboard/useProxy/staticResidence?regionCode</p>
+                    </div>
+                    <div class="test-details">
+                        <h4>Verification Type:</h4>
+                        <p>CONNECT</p>
+                    </div>
+                    <div class="test-details">
+                        <h4>Command Executed:</h4>
+                        <div class="output-box">curl -U "d9d2435c:27f95db7" -x "156.253.157.44:52000" "https://ipinfo.io"</div>
+                    </div>
+                    <div class="test-details">
+                        <h4>Output:</h4>
+                        <div class="output-box">  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 156.253.157.44:52000...
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0* connect to 156.253.157.44 port 52000 from 0.0.0.0 port 64874 failed: Timed out
+* Failed to connect to 156.253.157.44 port 52000 after 21023 ms: Could not connect to server
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0
+* closing connection #0
+curl: (28) Failed to connect to 156.253.157.44 port 52000 after 21023 ms: Could not connect to server
+</div>
+                    </div>
+                    <div class="test-details">
+                        <h4>Error (if any):</h4>
+                        <div class="output-box"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="test-case">
+                <div class="test-header test-passed">
+                    <span>Datacenter Proxies</span>
+                    <span class="status-badge status-passed">PASSED</span>
+                </div>
+                <div class="test-content">
+                    <div class="test-details">
+                        <h4>Test URL:</h4>
+                        <p>https://test-ipglobal.cd.xiaoxigroup.net/dashboard/useProxy/dataCenterProxies?regionCode</p>
+                    </div>
+                    <div class="test-details">
+                        <h4>Verification Type:</h4>
+                        <p>CONNECT</p>
+                    </div>
+                    <div class="test-details">
+                        <h4>Command Executed:</h4>
+                        <div class="output-box">curl -U "3dc8ad1f:eccf1e15" -x "154.36.155.214:52000" "https://ipinfo.io"</div>
+                    </div>
+                    <div class="test-details">
+                        <h4>Output:</h4>
+                        <div class="output-box">  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 154.36.155.214:52000...
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0* connect to 154.36.155.214 port 52000 from 0.0.0.0 port 64881 failed: Timed out
+* Failed to connect to 154.36.155.214 port 52000 after 21065 ms: Could not connect to server
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0
+* closing connection #0
+curl: (28) Failed to connect to 154.36.155.214 port 52000 after 21065 ms: Could not connect to server
+</div>
+                    </div>
+                    <div class="test-details">
+                        <h4>Error (if any):</h4>
+                        <div class="output-box"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="test-case">
+                <div class="test-header test-passed">
+                    <span>Unlimited Residential Proxies</span>
+                    <span class="status-badge status-passed">PASSED</span>
+                </div>
+                <div class="test-content">
+                    <div class="test-details">
+                        <h4>Test URL:</h4>
+                        <p>https://test-ipglobal.cd.xiaoxigroup.net/dashboard/useProxy/dynamicUnlimited</p>
+                    </div>
+                    <div class="test-details">
+                        <h4>Verification Type:</h4>
+                        <p>COUNTRY</p>
+                    </div>
+                    <div class="test-details">
+                        <h4>Command Executed:</h4>
+                        <div class="output-box">curl -U "customer-b6b2ad96:04b59bc0" -x "dgdkcq9ajm.du.okeyproxy.com:31212" "https://ipinfo.io"</div>
+                    </div>
+                    <div class="test-details">
+                        <h4>Output:</h4>
+                        <div class="output-box">{
+  "ip": "170.246.90.87",
+  "hostname": "87-90-246-170.inter-ya.com.ar",
+  "city": "LanÃºs",
+  "region": "Buenos Aires",
+  "country": "AR",
+  "loc": "-34.7076,-58.3913",
+  "org": "AS265639 COBWEB CONECTION SRL (INTER-YA)",
+  "postal": "1824",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "readme": "https://ipinfo.io/missingauth"
+}</div>
+                    </div>
+                    <div class="test-details">
+                        <h4>Error (if any):</h4>
+                        <div class="output-box"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <p>OkeyProxy Comprehensive Connection Test - Automated Test Report</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    
